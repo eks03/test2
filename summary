@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AI Analysis Results: Option X</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Summary</a></li>
+            <li><a href="pivot.html">Pivot Table</a></li>
+            <li><a href="sankey.html">Sankey Diagram</a></li>
+            <li><a href="treemap.html">Treemap</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>The dataset provides a comprehensive view of the usage patterns, preferences, and perceptions of diabetes management apps among patients. A significant insight from the data is the prevalence of daily app usage, with 63 mentions, indicating a high level of engagement among some users (Tag: Daily App Usage). This aligns with the theme of "Understanding the frequency and duration of app usage among diabetes patients" and supports the objective to ascertain the duration of app usage as an indication of patient adaptability and app retention.</p>
+
+                <p>Conversely, there is a notable segment of the population that does not utilize available apps, as evidenced by 38 mentions of non-usage (Tag: Non-Usage of Available App). This suggests a gap in either the awareness or perceived utility of these apps, which is crucial for themes focused on exploring app diversity and integration preferences among diabetes patients. It also highlights a potential area for improvement in patient education and app development to enhance usability and engagement.</p>
+                
+                <p>The data also reveals a diversity in app awareness, with specific mentions of apps like OnDuo (14 mentions), Levels (11 mentions), and January (8 mentions). This awareness is part of the theme "Assessing patient awareness and satisfaction with specific diabetes management apps" and ties into the objective of gathering user feedback on these apps. The feedback could be used to understand how patients discover these apps and what they value or dislike about them, which could guide future improvements.</p>
+                
+                <p>Additionally, there is a segment of users interested in more personalized app experiences, as shown by 10 mentions of a desire for personalized apps (Tag: Desire for Personalized App). This reflects a trend towards customization in healthcare technology, which could be pivotal in enhancing user satisfaction and adherence to diabetes management protocols.</p>
+                
+                <p>Overall, the dataset underscores a mixed landscape of app usage among diabetes patients, with significant daily engagement for some, while others remain disengaged or seek more tailored solutions. This highlights the importance of continued innovation and customization in the development of healthcare apps to meet diverse patient needs and improve overall management of diabetes.</p>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
