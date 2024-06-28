@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankey Diagram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AI Analysis Results: Option X</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Summary</a></li>
+            <li><a href="pivot.html">Pivot Table</a></li>
+            <li><a href="sankey.html">Sankey Diagram</a></li>
+            <li><a href="treemap.html">Treemap</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="sankey">
+            <h2>Sankey Diagram</h2>
+            <iframe src="visualizations/sankey_diagram.html" width="100%" height="600px"></iframe>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
